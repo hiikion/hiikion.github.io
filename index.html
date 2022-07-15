@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title></title>
+
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+
+        <div class="main-container">
+            <span class="title">hiikion<span class="smol"> aka hkon</span></span>
+            <div class="info">
+                <details class="small">
+                    <summary>about</summary>
+                    Teenage developer from Russia
+                </details>
+                <details class="big">
+                    <summary>programming skils</summary>
+                    main languages: <br> <!--br superiority-->
+                    python;<br>
+                    nim;<br>
+                    c++;<br>
+                    <br>
+                    web:<br>
+                    html;<br>
+                    css;<br>
+                    js;<br>
+                    <br>
+                    misc:<br>
+                    regex;<br>
+                    sql;<br>
+                </details>
+                <details class="mid">
+                    <summary>contacts</summary>
+                    discord: hiikion#0945 <br>
+                    yougame: <a href="https://yougame.biz/members/515422/" target="_blank">https://yougame.biz/members/515422/</a> <br>
+                    telegram: <a href="https://t.me/Ninjinaitor" target="_blank">https://t.me/Ninjinaitor</a> <br>
+                    github: <a href="https://github.com/hiikion" target="_blank">https://github.com/hiikion</a> <br>
+                </details>
+            </div>
+        </div>
+
+    </body>
+
+    <script type="text/javascript">// all my homies integrate js inside html
+        var i = 0;
+        var txt = 'ｈｉｉｋｉｏｎ';
+        var delay = 150;
+
+        function type_title() {
+            if (i < txt.length) {
+                document.title += txt.charAt(i);
+                i++;
+                setTimeout(type_title, delay);
+            }
+        }
+
+        type_title()
+    </script>
+
+</html>
